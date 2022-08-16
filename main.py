@@ -54,7 +54,7 @@ if __name__ == '__main__':
     # utils.embed_in_batch_for_large(protein_seq, 3700)
     
     ##### For small GPU ######
-    # Split data into segments, wt and mt go to model seperately in batch form （wt or mt + batch)
+    # Split data into segments, wt and mt go to model separately in batch form （wt or mt + batch)
     # utils.embed_in_batch_for_small(protein_seq, 5, path = )
     
 

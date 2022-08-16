@@ -253,7 +253,6 @@ def get_embedding_for_small_GPU(protein_seq,  save_path, start=None, stop=None, 
         mt_seq = seq['mt_seq']
         # AF_DB = seq['AlphaFoldDB']
         # PDB = seq['PDB']
-        # pathogenicity = seq['pathogenicity']
         
         # add_special_tokens adds extra token at the end of each sequence
         # token_encoding = tokenizer.batch_encode_plus([seq['wt_seq'], seq['mt_seq']], add_special_tokens=True, padding="longest")
@@ -308,7 +307,7 @@ def embed_in_batch_for_small(protein_seq, amount, path):
         os.system('tput bel')
     
 def data_for_downstream_for_small():
-    path = config.model_2_embed__1080_path + '/'
+    path = config.model_2_embed_1080_path + '/'
     concat = []
     for pkl in os.listdir(path):
         if(".pkl" in pkl):
