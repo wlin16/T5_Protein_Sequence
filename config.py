@@ -45,8 +45,8 @@ batch_size = 32
 # embedding path
 model_1_embed_path = './Embedding_results/model_1_embeds'
 model_2_embed_path = './Embedding_results/model_2_embeds'
-model_1_embed_csv_path = './Embedding_results_csv/model_1_embeds'
-model_2_embed_csv_path = './Embedding_results_csv/model_2_embeds'
+model_1_embed_csv_path = './data/Embedding_results_csv/model_1_embeds'
+model_2_embed_csv_path = './data/Embedding_results_csv/model_2_embeds'
 
 # model path
 model_dir = './models'
