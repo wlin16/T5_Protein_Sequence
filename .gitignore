@@ -1,6 +1,10 @@
 .DS_Store
 .idea/
+.gitignore
+.ipynb_checkpoints
 
 data/
 catboost_info/
 wandb/
+
+__pycache__/
