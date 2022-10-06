@@ -2,9 +2,15 @@
 .idea/
 .gitignore
 .ipynb_checkpoints
+.npy
+.pkl
+.csv
 
 data/
 catboost_info/
 wandb/
+models/
+runs/
+t5_embeds/
 
 __pycache__/
